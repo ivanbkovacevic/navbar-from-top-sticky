@@ -1,0 +1,37 @@
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  
+}
+a {
+    color: white;
+    text-decoration: none !important ;
+ }
+a:hover
+ {
+   color: white;
+   text-decoration:none;
+   cursor:pointer;
+  }
+
+body {
+    font-family: 'Montserrat',"FontAwesome", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: white;  
+}
+/* 
+////////////////PRE SET/////////////////////////// */

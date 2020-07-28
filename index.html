@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVBAR</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="nav"  id="navid">
+        <div class="brand">brand</div>
+        <div class="navbar" id="navbar">
+            <ul>
+                <li class="navitem"><a class="navlink">jedan</a></li>
+                <li class="navitem"><a class="navlink">jedan</a></li>
+                <li class="navitem"><a class="navlink">jedan</a></li>
+                <li class="navitem"><a class="navlink">jedan</a></li>
+            </ul>
+        </div>
+      <button class="toggler" onclick="ShowNavbar()" id="toggler">But</button>
+    </nav>
+
+    <section class="main">
+    <section class="hero"></section>
+    <section class="section-1"></section>
+    <section class="section-2"></section>
+
+    </section>
+    <script>
+        function ShowNavbar(){
+            const navbar=document.getElementById("navid");
+            navbar.classList.toggle('show')
+        }
+
+    </script>
+</body>
+</html>

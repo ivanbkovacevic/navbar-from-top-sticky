@@ -1,0 +1,114 @@
+@import'./scss/basics';
+
+.nav{
+    height: 80px;
+    background: gray;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 9999;
+    transition: all 0.5s;
+    @media screen and (max-width: 902px) {
+        height: 30px;
+        position: sticky;
+        top:0px;
+        flex-direction: column;
+      }
+
+    .brand{
+        @media screen and (max-width: 902px) {
+            display: none;
+          }
+        display: block;
+        width: 100px;
+        color: black;
+        background: orange;
+    }
+
+    .navbar{
+ 
+        display: flex;
+        justify-content: flex-end;
+        background: yellow;
+        flex: 1;
+        padding: 20px 20px;
+        transition: all 0.5s;
+        @media screen and (max-width: 902px) {
+            transition: all 0.5s;
+            height: 150px;
+            padding:0;
+            overflow: hidden;
+            }
+
+       ul{
+        flex: 1;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border: 1px solid green;
+        transition: all 0.5s;
+        height: 100%;
+
+        @media screen and (max-width: 902px) {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+         //   height: 250px;
+            transition: all 0.5s;
+          
+        }
+        .navitem{
+            display: flex;
+            flex: 1;
+            margin-right: 5px;
+            border: 1px solid orangered;
+            padding: 10px 10px;
+            justify-content: center;
+            align-items: center;
+            height: 30%;
+            @media screen and (max-width: 902px) {
+                width: 100%;
+                justify-content: flex-start;
+                height: 30px;
+            }
+            .navlink{
+                color: black;
+            }
+        }
+       }
+    }
+
+    .toggler{
+        @media screen and (min-width: 902px) {
+            display: none;
+          }
+        width: 250px;
+        height: 30px;
+        align-self: center;
+    }
+  
+}
+
+.show{ ///////////////////////// showing collapsed navbar
+    transition: all 0.5s;
+     height: 170px;
+}
+
+.main{
+    height: 3000px;
+    background: orange;
+    .hero{
+        height: 1000px;
+        background: green;
+    }
+
+    .section-1{
+        height: 1000px;
+        background: blue;
+    }
+    .section-2{
+        height: 1000px;
+        background: gray;
+    }
+}
+
