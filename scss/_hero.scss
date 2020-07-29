@@ -1,0 +1,27 @@
+.hero{
+    height: 1000px;
+    background: green;
+    background-image: url('misha.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding: 100px;
+    z-index: 2;
+    .overlay{
+        position: absolute;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
+    .element{
+        background: white;
+        margin-top: 100px;
+        width: 30%;
+        height: 30%;
+        z-index: 9999;
+    }
+}

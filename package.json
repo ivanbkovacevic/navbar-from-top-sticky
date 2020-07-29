@@ -1,0 +1,23 @@
+{
+  "name": "navbar",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanbkovacevic/navbar-from-top-sticky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanbkovacevic/navbar-from-top-sticky/issues"
+  },
+  "homepage": "https://github.com/ivanbkovacevic/navbar-from-top-sticky#readme",
+  "dependencies": {
+    "feather-icons": "^4.28.0",
+    "npm": "^6.14.7"
+  }
+}

@@ -1,0 +1,32 @@
+footer{
+    $width:100%;
+    background: $gray-light;
+    width: calc(#{$width} + 200px);
+    height: 300px;
+    margin-left: -100px;
+
+    span{
+      font-size: 5rem;
+      color: hotpink;
+    }
+
+    i{
+        font-size: 5rem;
+        color: hotpink;
+    }
+
+    p{
+        font-size: 5rem;
+        background: indianred;
+        display: inline-block;
+        width: 400px;
+        padding: 20px;
+        text-align: center;
+    }
+    p::after{
+        content: '\f218';
+        color: indigo;
+        font-size: 4rem;
+        margin-left: 50px;
+    }
+}

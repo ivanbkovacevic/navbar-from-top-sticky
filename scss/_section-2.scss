@@ -1,0 +1,16 @@
+
+.section-2{
+        height: 500px;
+        background: gray;
+        width: 100%;
+
+        .row{
+            div:last-child{
+                border: 1px solid red;
+            }
+            div:nth-of-type(3){
+                border: 1px solid yellowgreen;
+            }
+        }
+  
+}
