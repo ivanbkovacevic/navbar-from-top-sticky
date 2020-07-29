@@ -7,6 +7,7 @@
     justify-content: flex-end;
     z-index: 9999;
     transition: all 0.5s;
+   // margin-bottom: 50px;
     @media screen and (max-width: 902px) {
         height: 30px;
         position: sticky;
@@ -96,9 +97,11 @@
 }
 
 .main{
+    display: block;
     height: 3000px;
     background: orange;
-    margin-top: -30px;
+  //  margin-top: -30px;
+   padding: 20px 100px;
     .hero{
         height: 1000px;
         background: green;
@@ -107,6 +110,8 @@
         background-attachment: fixed;
         background-size: cover;
         position: relative;
+        padding: 100px;
+        z-index: 2;
         .overlay{
             position: absolute;
             top:0;
@@ -114,13 +119,13 @@
             right: 0;
             bottom: 0;
             background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
         }
         .element{
             background: white;
-            margin-top: 50%;
-            margin-left: 50%;
-            width: 50%;
-            height: 50%;
+            margin-top: 100px;
+            width: 30%;
+            height: 30%;
             z-index: 9999;
         }
     }
@@ -128,6 +133,8 @@
     .section-1{
         height: 1000px;
         background: blue;
+        width: 140%;
+        margin-left: -20%;
     }
     .section-2{
         height: 1000px;

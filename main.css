@@ -193,9 +193,10 @@ body {
 }
 
 .main {
+  display: block;
   height: 3000px;
   background: orange;
-  margin-top: -30px;
+  padding: 20px 100px;
 }
 
 .main .hero {
@@ -206,6 +207,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  padding: 100px;
+  z-index: 2;
 }
 
 .main .hero .overlay {
@@ -215,20 +218,22 @@ body {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 .main .hero .element {
   background: white;
-  margin-top: 50%;
-  margin-left: 50%;
-  width: 50%;
-  height: 50%;
+  margin-top: 100px;
+  width: 30%;
+  height: 30%;
   z-index: 9999;
 }
 
 .main .section-1 {
   height: 1000px;
   background: blue;
+  width: 140%;
+  margin-left: -20%;
 }
 
 .main .section-2 {
