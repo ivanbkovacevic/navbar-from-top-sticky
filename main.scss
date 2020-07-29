@@ -2,7 +2,7 @@
 
 .nav{
     height: 80px;
-    background: gray;
+    background: transperant;
     display: flex;
     justify-content: flex-end;
     z-index: 9999;
@@ -90,6 +90,7 @@
 }
 
 .show{ ///////////////////////// showing collapsed navbar
+
     transition: all 0.5s;
      height: 170px;
 }
@@ -97,9 +98,31 @@
 .main{
     height: 3000px;
     background: orange;
+    margin-top: -30px;
     .hero{
         height: 1000px;
         background: green;
+        background-image: url('misha.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+        .overlay{
+            position: absolute;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .element{
+            background: white;
+            margin-top: 50%;
+            margin-left: 50%;
+            width: 50%;
+            height: 50%;
+            z-index: 9999;
+        }
     }
 
     .section-1{

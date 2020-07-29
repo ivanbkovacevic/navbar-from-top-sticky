@@ -38,7 +38,7 @@ body {
 ////////////////PRE SET/////////////////////////// */
 .nav {
   height: 80px;
-  background: gray;
+  background: transperant;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,11 +195,35 @@ body {
 .main {
   height: 3000px;
   background: orange;
+  margin-top: -30px;
 }
 
 .main .hero {
   height: 1000px;
   background: green;
+  background-image: url("misha.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.main .hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main .hero .element {
+  background: white;
+  margin-top: 50%;
+  margin-left: 50%;
+  width: 50%;
+  height: 50%;
+  z-index: 9999;
 }
 
 .main .section-1 {
