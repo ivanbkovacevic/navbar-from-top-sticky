@@ -230,10 +230,10 @@ body {
 }
 
 .main .section-1 {
-  height: 1000px;
+  height: 500px;
   background: blue;
-  width: 140%;
-  margin-left: -20%;
+  width: calc(100% + 200px);
+  margin-left: -100px;
 }
 
 .main .section-2 {
