@@ -256,17 +256,17 @@ footer {
   margin-left: -100px;
 }
 
-footer span {
+footer .icons span {
   font-size: 5rem;
   color: hotpink;
 }
 
-footer i {
+footer .icons i {
   font-size: 5rem;
   color: hotpink;
 }
 
-footer p {
+footer .icons p:nth-of-type(1) {
   font-size: 5rem;
   background: indianred;
   display: inline-block;
@@ -275,10 +275,19 @@ footer p {
   text-align: center;
 }
 
-footer p::after {
+footer .icons p:nth-of-type(1)::after {
   content: '\f218';
   color: indigo;
   font-size: 4rem;
   margin-left: 50px;
+}
+
+footer .minmax {
+  color: #8000fc;
+  background: lawngreen;
+  max-width: 400px;
+  max-height: 500px;
+  padding: 100px;
+  margin: 0 auto 300px auto;
 }
 /*# sourceMappingURL=main.css.map */
