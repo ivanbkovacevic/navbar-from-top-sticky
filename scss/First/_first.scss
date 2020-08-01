@@ -1,0 +1,34 @@
+.first{
+    $index:1;
+   padding: 0;
+    max-width: 500px;
+   max-height: 500px;
+   min-height: 500px;
+   margin: 50px auto;
+    background: lightseagreen;
+ 
+    @for $m from 1 through 25 {
+  
+    
+                @for $l from 1 through 25 {
+                    .boot :nth-of-type(#{$l}){
+                        min-width: 100px;
+                        max-width: 100px;
+                        min-height: 100px;
+                        max-height: 100px;
+                         $color:rgb(105, 3, 3);
+                         background: lighten($color,$l*4%);
+                         overflow: hidden;
+                img{
+                    min-width: 500px;
+                   // max-width: 100px;
+                    min-height: 500px;
+                    object-fit: cover;
+                   object-position: #{$l*-4px} #{$m*-4px};
+                 //   object-position: 0 0;
+                 
+                }
+            }
+        }
+    }
+}

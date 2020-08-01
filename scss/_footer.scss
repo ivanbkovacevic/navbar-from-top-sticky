@@ -42,4 +42,12 @@ footer{
         padding: 100px;
         margin: 0 auto 300px auto;
     }
+
+    @for $i from 1 through 6 {
+    .boot :nth-of-type(#{$i}){
+            $color:red;
+            background: lighten($color,$i*5%);
+            margin-bottom: 50px;
+    }
+    }
 }
