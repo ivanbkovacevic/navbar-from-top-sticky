@@ -14,13 +14,13 @@
 
      @for $v from 1 to 6 {
              
-    
       div:nth-of-type(#{$v}){
         position: relative;
-          max-width: 200px;
+          max-width: 20%;
           max-height: 600px;
-          transition: max-width 0.9s 0.2s;
+          transition: all 0.9s 0.2s;
           border-left: 2px solid wheat;
+          z-index: $v ;
         p{
             position: absolute;
             top: 40%;
@@ -32,18 +32,34 @@
         }
        
      &:hover{
-        max-width: 800px;
+        max-width: 90%;
      }
          img{
            
-             object-fit: initial;
-             object-position: 0px 0px;
+             object-fit: cover;
+             object-position: -300px 0px;
              max-height: 600px;
-             min-width: 1000px;
+             min-width: 1800px;
             
          }
      }
     }
+
+    div:nth-of-type(4){
+        &:hover{
+            max-width: 80%;
+            margin-left: -60%;
+         }
+    }
+
+    div:nth-of-type(5){
+        &:hover{
+            max-width: 100%;
+            margin-left: -80%;
+         }
+    }
  }
+
+
     
 }

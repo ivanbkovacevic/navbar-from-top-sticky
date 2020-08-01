@@ -342,11 +342,12 @@ footer .boot :nth-of-type(6) {
 
 .first .boot div:nth-of-type(1) {
   position: relative;
-  max-width: 200px;
+  max-width: 20%;
   max-height: 600px;
-  -webkit-transition: max-width 0.9s 0.2s;
-  transition: max-width 0.9s 0.2s;
+  -webkit-transition: all 0.9s 0.2s;
+  transition: all 0.9s 0.2s;
   border-left: 2px solid wheat;
+  z-index: 1;
 }
 
 .first .boot div:nth-of-type(1) p {
@@ -360,25 +361,26 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(1):hover {
-  max-width: 800px;
+  max-width: 90%;
 }
 
 .first .boot div:nth-of-type(1) img {
-  -o-object-fit: initial;
-     object-fit: initial;
-  -o-object-position: 0px 0px;
-     object-position: 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -300px 0px;
+     object-position: -300px 0px;
   max-height: 600px;
-  min-width: 1000px;
+  min-width: 1800px;
 }
 
 .first .boot div:nth-of-type(2) {
   position: relative;
-  max-width: 200px;
+  max-width: 20%;
   max-height: 600px;
-  -webkit-transition: max-width 0.9s 0.2s;
-  transition: max-width 0.9s 0.2s;
+  -webkit-transition: all 0.9s 0.2s;
+  transition: all 0.9s 0.2s;
   border-left: 2px solid wheat;
+  z-index: 2;
 }
 
 .first .boot div:nth-of-type(2) p {
@@ -392,25 +394,26 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(2):hover {
-  max-width: 800px;
+  max-width: 90%;
 }
 
 .first .boot div:nth-of-type(2) img {
-  -o-object-fit: initial;
-     object-fit: initial;
-  -o-object-position: 0px 0px;
-     object-position: 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -300px 0px;
+     object-position: -300px 0px;
   max-height: 600px;
-  min-width: 1000px;
+  min-width: 1800px;
 }
 
 .first .boot div:nth-of-type(3) {
   position: relative;
-  max-width: 200px;
+  max-width: 20%;
   max-height: 600px;
-  -webkit-transition: max-width 0.9s 0.2s;
-  transition: max-width 0.9s 0.2s;
+  -webkit-transition: all 0.9s 0.2s;
+  transition: all 0.9s 0.2s;
   border-left: 2px solid wheat;
+  z-index: 3;
 }
 
 .first .boot div:nth-of-type(3) p {
@@ -424,25 +427,26 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(3):hover {
-  max-width: 800px;
+  max-width: 90%;
 }
 
 .first .boot div:nth-of-type(3) img {
-  -o-object-fit: initial;
-     object-fit: initial;
-  -o-object-position: 0px 0px;
-     object-position: 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -300px 0px;
+     object-position: -300px 0px;
   max-height: 600px;
-  min-width: 1000px;
+  min-width: 1800px;
 }
 
 .first .boot div:nth-of-type(4) {
   position: relative;
-  max-width: 200px;
+  max-width: 20%;
   max-height: 600px;
-  -webkit-transition: max-width 0.9s 0.2s;
-  transition: max-width 0.9s 0.2s;
+  -webkit-transition: all 0.9s 0.2s;
+  transition: all 0.9s 0.2s;
   border-left: 2px solid wheat;
+  z-index: 4;
 }
 
 .first .boot div:nth-of-type(4) p {
@@ -456,25 +460,26 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(4):hover {
-  max-width: 800px;
+  max-width: 90%;
 }
 
 .first .boot div:nth-of-type(4) img {
-  -o-object-fit: initial;
-     object-fit: initial;
-  -o-object-position: 0px 0px;
-     object-position: 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -300px 0px;
+     object-position: -300px 0px;
   max-height: 600px;
-  min-width: 1000px;
+  min-width: 1800px;
 }
 
 .first .boot div:nth-of-type(5) {
   position: relative;
-  max-width: 200px;
+  max-width: 20%;
   max-height: 600px;
-  -webkit-transition: max-width 0.9s 0.2s;
-  transition: max-width 0.9s 0.2s;
+  -webkit-transition: all 0.9s 0.2s;
+  transition: all 0.9s 0.2s;
   border-left: 2px solid wheat;
+  z-index: 5;
 }
 
 .first .boot div:nth-of-type(5) p {
@@ -488,15 +493,25 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(5):hover {
-  max-width: 800px;
+  max-width: 90%;
 }
 
 .first .boot div:nth-of-type(5) img {
-  -o-object-fit: initial;
-     object-fit: initial;
-  -o-object-position: 0px 0px;
-     object-position: 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -300px 0px;
+     object-position: -300px 0px;
   max-height: 600px;
-  min-width: 1000px;
+  min-width: 1800px;
+}
+
+.first .boot div:nth-of-type(4):hover {
+  max-width: 80%;
+  margin-left: -60%;
+}
+
+.first .boot div:nth-of-type(5):hover {
+  max-width: 100%;
+  margin-left: -80%;
 }
 /*# sourceMappingURL=main.css.map */
