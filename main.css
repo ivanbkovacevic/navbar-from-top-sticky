@@ -340,6 +340,15 @@ footer .boot :nth-of-type(6) {
           justify-content: flex-start;
 }
 
+.first .boot img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -300px 0px;
+     object-position: -300px 0px;
+  max-height: 600px;
+  min-width: 1800px;
+}
+
 .first .boot div:nth-of-type(1) {
   position: relative;
   max-width: 20%;
@@ -460,7 +469,8 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(4):hover {
-  max-width: 90%;
+  max-width: 80%;
+  margin-left: -64%;
 }
 
 .first .boot div:nth-of-type(4) img {
@@ -493,7 +503,8 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(5):hover {
-  max-width: 90%;
+  max-width: 100%;
+  margin-left: -80%;
 }
 
 .first .boot div:nth-of-type(5) img {
@@ -503,15 +514,5 @@ footer .boot :nth-of-type(6) {
      object-position: -300px 0px;
   max-height: 600px;
   min-width: 1800px;
-}
-
-.first .boot div:nth-of-type(4):hover {
-  max-width: 80%;
-  margin-left: -60%;
-}
-
-.first .boot div:nth-of-type(5):hover {
-  max-width: 100%;
-  margin-left: -80%;
 }
 /*# sourceMappingURL=main.css.map */
