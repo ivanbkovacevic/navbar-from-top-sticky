@@ -469,7 +469,7 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(4):hover {
-  max-width: 80%;
+  max-width: 90%;
   margin-left: -64%;
 }
 
@@ -503,7 +503,7 @@ footer .boot :nth-of-type(6) {
 }
 
 .first .boot div:nth-of-type(5):hover {
-  max-width: 100%;
+  max-width: 90%;
   margin-left: -80%;
 }
 
