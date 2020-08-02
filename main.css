@@ -519,6 +519,7 @@ footer .boot :nth-of-type(6) {
 .second {
   min-height: 900px;
   overflow: hidden;
+  padding-bottom: 130px;
 }
 
 .second .square-wraper {
@@ -1229,5 +1230,17 @@ footer .boot :nth-of-type(6) {
   background: white;
   max-width: 1170px;
   min-width: 273px;
+}
+
+.second .contrast {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: plum;
+  text-align: center;
+}
+
+.second .contrast h1 {
+  color: #bdafaf;
 }
 /*# sourceMappingURL=main.css.map */

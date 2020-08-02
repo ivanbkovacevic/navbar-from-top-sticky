@@ -1,6 +1,7 @@
 .second{
 min-height: 900px;
 overflow: hidden;
+padding-bottom: 130px;
     .square-wraper{
         max-width: 650px;
         min-width: 1300px;
@@ -36,5 +37,22 @@ overflow: hidden;
     }
     }
 
+    .contrast{
+        $cont-bcg-col:rgb(247, 239, 247);
+        $h-col:rgb(189, 175, 175);
+        @if $cont-bcg-col <$h-col {
+            $h-col:white;
+        }
+        
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background: plum;
+        text-align: center;
+
+        h1{
+            color: $h-col;
+        }
+    }
 
 }
