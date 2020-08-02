@@ -1,0 +1,40 @@
+.second{
+min-height: 900px;
+overflow: hidden;
+    .square-wraper{
+        max-width: 650px;
+        min-width: 1300px;
+       // max-height: 650px;
+        margin: 0 auto;
+        overflow: hidden;
+        // display: flex;
+        // justify-content: flex-start;
+        // flex-wrap: wrap;
+       margin-top: 100px;
+    
+        $numOfDivs:40;
+        @for $v from 1 to $numOfDivs {
+            
+        
+        .squares:nth-of-type(#{$v}){
+         
+            display: block;
+            max-width: 40px;
+            max-height: 20px;
+            min-width: 20px;
+            min-height: 20px;
+            background: darken(rgb(247, 192, 137),$v*2%);
+            border: 1px solid black;
+            transition: all 0.2s;
+    
+            &:hover{
+               background: lighten(rgb(247, 192, 137),$v*2%);
+               max-width: $v*30px;
+               min-width: $v*7px;
+            }
+        }
+    }
+    }
+
+
+}

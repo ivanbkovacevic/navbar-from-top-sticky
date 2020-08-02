@@ -515,4 +515,719 @@ footer .boot :nth-of-type(6) {
   max-height: 600px;
   min-width: 1800px;
 }
+
+.second {
+  min-height: 900px;
+  overflow: hidden;
+}
+
+.second .square-wraper {
+  max-width: 650px;
+  min-width: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.second .square-wraper .squares:nth-of-type(1) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f6bb7f;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(1):hover {
+  background: #f8c593;
+  max-width: 30px;
+  min-width: 7px;
+}
+
+.second .square-wraper .squares:nth-of-type(2) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f6b676;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(2):hover {
+  background: #f8ca9c;
+  max-width: 60px;
+  min-width: 14px;
+}
+
+.second .square-wraper .squares:nth-of-type(3) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f5b16c;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(3):hover {
+  background: #f9cfa6;
+  max-width: 90px;
+  min-width: 21px;
+}
+
+.second .square-wraper .squares:nth-of-type(4) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f4ac63;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(4):hover {
+  background: #fad4af;
+  max-width: 120px;
+  min-width: 28px;
+}
+
+.second .square-wraper .squares:nth-of-type(5) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f4a759;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(5):hover {
+  background: #fadab9;
+  max-width: 150px;
+  min-width: 35px;
+}
+
+.second .square-wraper .squares:nth-of-type(6) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f3a150;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(6):hover {
+  background: #fbdfc2;
+  max-width: 180px;
+  min-width: 42px;
+}
+
+.second .square-wraper .squares:nth-of-type(7) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f29c46;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(7):hover {
+  background: #fce4cc;
+  max-width: 210px;
+  min-width: 49px;
+}
+
+.second .square-wraper .squares:nth-of-type(8) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f2973d;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(8):hover {
+  background: #fce9d5;
+  max-width: 240px;
+  min-width: 56px;
+}
+
+.second .square-wraper .squares:nth-of-type(9) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f19233;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(9):hover {
+  background: #fdeedf;
+  max-width: 270px;
+  min-width: 63px;
+}
+
+.second .square-wraper .squares:nth-of-type(10) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f18d29;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(10):hover {
+  background: #fdf3e9;
+  max-width: 300px;
+  min-width: 70px;
+}
+
+.second .square-wraper .squares:nth-of-type(11) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #f08820;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(11):hover {
+  background: #fef8f2;
+  max-width: 330px;
+  min-width: 77px;
+}
+
+.second .square-wraper .squares:nth-of-type(12) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #ef8316;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(12):hover {
+  background: #fffdfc;
+  max-width: 360px;
+  min-width: 84px;
+}
+
+.second .square-wraper .squares:nth-of-type(13) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #eb7e10;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(13):hover {
+  background: white;
+  max-width: 390px;
+  min-width: 91px;
+}
+
+.second .square-wraper .squares:nth-of-type(14) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #e2790f;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(14):hover {
+  background: white;
+  max-width: 420px;
+  min-width: 98px;
+}
+
+.second .square-wraper .squares:nth-of-type(15) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #d8740f;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(15):hover {
+  background: white;
+  max-width: 450px;
+  min-width: 105px;
+}
+
+.second .square-wraper .squares:nth-of-type(16) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #cf6e0e;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(16):hover {
+  background: white;
+  max-width: 480px;
+  min-width: 112px;
+}
+
+.second .square-wraper .squares:nth-of-type(17) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #c5690d;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(17):hover {
+  background: white;
+  max-width: 510px;
+  min-width: 119px;
+}
+
+.second .square-wraper .squares:nth-of-type(18) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #bc640d;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(18):hover {
+  background: white;
+  max-width: 540px;
+  min-width: 126px;
+}
+
+.second .square-wraper .squares:nth-of-type(19) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #b25f0c;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(19):hover {
+  background: white;
+  max-width: 570px;
+  min-width: 133px;
+}
+
+.second .square-wraper .squares:nth-of-type(20) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #a95a0b;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(20):hover {
+  background: white;
+  max-width: 600px;
+  min-width: 140px;
+}
+
+.second .square-wraper .squares:nth-of-type(21) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #9f550b;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(21):hover {
+  background: white;
+  max-width: 630px;
+  min-width: 147px;
+}
+
+.second .square-wraper .squares:nth-of-type(22) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #95500a;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(22):hover {
+  background: white;
+  max-width: 660px;
+  min-width: 154px;
+}
+
+.second .square-wraper .squares:nth-of-type(23) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #8c4b09;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(23):hover {
+  background: white;
+  max-width: 690px;
+  min-width: 161px;
+}
+
+.second .square-wraper .squares:nth-of-type(24) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #824609;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(24):hover {
+  background: white;
+  max-width: 720px;
+  min-width: 168px;
+}
+
+.second .square-wraper .squares:nth-of-type(25) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #794108;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(25):hover {
+  background: white;
+  max-width: 750px;
+  min-width: 175px;
+}
+
+.second .square-wraper .squares:nth-of-type(26) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #6f3b08;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(26):hover {
+  background: white;
+  max-width: 780px;
+  min-width: 182px;
+}
+
+.second .square-wraper .squares:nth-of-type(27) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #663607;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(27):hover {
+  background: white;
+  max-width: 810px;
+  min-width: 189px;
+}
+
+.second .square-wraper .squares:nth-of-type(28) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #5c3106;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(28):hover {
+  background: white;
+  max-width: 840px;
+  min-width: 196px;
+}
+
+.second .square-wraper .squares:nth-of-type(29) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #532c06;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(29):hover {
+  background: white;
+  max-width: 870px;
+  min-width: 203px;
+}
+
+.second .square-wraper .squares:nth-of-type(30) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #492705;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(30):hover {
+  background: white;
+  max-width: 900px;
+  min-width: 210px;
+}
+
+.second .square-wraper .squares:nth-of-type(31) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #3f2204;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(31):hover {
+  background: white;
+  max-width: 930px;
+  min-width: 217px;
+}
+
+.second .square-wraper .squares:nth-of-type(32) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #361d04;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(32):hover {
+  background: white;
+  max-width: 960px;
+  min-width: 224px;
+}
+
+.second .square-wraper .squares:nth-of-type(33) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #2c1803;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(33):hover {
+  background: white;
+  max-width: 990px;
+  min-width: 231px;
+}
+
+.second .square-wraper .squares:nth-of-type(34) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #231302;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(34):hover {
+  background: white;
+  max-width: 1020px;
+  min-width: 238px;
+}
+
+.second .square-wraper .squares:nth-of-type(35) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #190e02;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(35):hover {
+  background: white;
+  max-width: 1050px;
+  min-width: 245px;
+}
+
+.second .square-wraper .squares:nth-of-type(36) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #100801;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(36):hover {
+  background: white;
+  max-width: 1080px;
+  min-width: 252px;
+}
+
+.second .square-wraper .squares:nth-of-type(37) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #060300;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(37):hover {
+  background: white;
+  max-width: 1110px;
+  min-width: 259px;
+}
+
+.second .square-wraper .squares:nth-of-type(38) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: black;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(38):hover {
+  background: white;
+  max-width: 1140px;
+  min-width: 266px;
+}
+
+.second .square-wraper .squares:nth-of-type(39) {
+  display: block;
+  max-width: 40px;
+  max-height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: black;
+  border: 1px solid black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.second .square-wraper .squares:nth-of-type(39):hover {
+  background: white;
+  max-width: 1170px;
+  min-width: 273px;
+}
 /*# sourceMappingURL=main.css.map */
