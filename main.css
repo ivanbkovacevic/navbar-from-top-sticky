@@ -1341,4 +1341,48 @@ footer .boot :nth-of-type(6) {
   top: 370px;
   right: 10px;
 }
+
+.fourth {
+  background: navy;
+  padding: 0 50px;
+}
+
+.fourth .section-1 {
+  width: 100%;
+  height: 300vh;
+  background: oldlace;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.fourth .section-1 .a {
+  width: 150px;
+  height: 150px;
+  background: olivedrab;
+  color: white;
+  font-size: 3rem;
+  margin-left: 30px;
+  opacity: 0;
+}
+
+.fourth .section-2 {
+  width: 100%;
+  height: 800px;
+  background: aqua;
+}
+
+.fourth .section-3 {
+  width: 100%;
+  height: 800px;
+  background: firebrick;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+.fourth{
+    background: navy;
+    padding: 0 50px;
+
+  
+
+    .section-1{
+        width: 100%;
+        height: 300vh;
+        background: oldlace;
+        padding: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0 auto;
+
+        .a{
+            width:150px;
+            height: 150px;
+            background: olivedrab;
+            color: white;
+            font-size: 3rem;
+            margin-left: 30px;
+            opacity: 0;
+        }
+    }
+
+    .section-2{
+        width: 100%;
+        height: 800px;
+        background: aqua;
+    }
+
+    .section-3{
+        width: 100%;
+        height: 800px;
+        background: firebrick;
+    }
+}
