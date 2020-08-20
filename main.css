@@ -1342,6 +1342,14 @@ footer .boot :nth-of-type(6) {
   right: 10px;
 }
 
+.mix-blend {
+  width: 1600px;
+  height: 800px;
+  background: black;
+  background-image: url(https://cf.bstatic.com/images/hotel/max1024x768/206/206950906.jpg);
+  background-size: cover;
+}
+
 .fourth {
   background: navy;
   padding: 0 50px;
