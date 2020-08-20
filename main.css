@@ -1343,11 +1343,14 @@ footer .boot :nth-of-type(6) {
 }
 
 .mix-blend {
-  width: 1600px;
+  position: relative;
+  width: 1000px;
   height: 800px;
-  background: black;
+  background-color: rgba(7, 7, 7, 0.459);
   background-image: url(https://cf.bstatic.com/images/hotel/max1024x768/206/206950906.jpg);
   background-size: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
 }
 
 .fourth {

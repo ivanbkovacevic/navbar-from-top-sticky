@@ -90,11 +90,25 @@
   }
 
   .mix-blend{
-    width: 1600px;
+    position: relative;
+
+    width: 1000px;
     height: 800px;
-    background: black;
+    background-color: rgba(7, 7, 7, 0.459);
     background-image: url(https://cf.bstatic.com/images/hotel/max1024x768/206/206950906.jpg);
     background-size: cover;
-    //mix-blend-mode: overlay;
+    filter: brightness(60%);
 
+    //  .overlay{
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   bottom: 0;
+    //   right: 0;
+    //   background-color: rgba(0, 0, 0, 0.548);
+    
+    //   background-image: url(https://www.agromedia.rs/chest/lisce_opalo.jpg);
+    //   background-size: contain;
+    //   background-blend-mode: multiply;
+    // }
   }
