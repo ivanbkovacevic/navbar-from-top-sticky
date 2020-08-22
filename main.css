@@ -1396,4 +1396,96 @@ footer .boot :nth-of-type(6) {
   height: 800px;
   background: firebrick;
 }
+
+.grid-container {
+  background: olive;
+  height: 600px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px 200px;
+      grid-template-columns: 200px 200px 200px;
+  -ms-grid-rows: 200px 200px;
+      grid-template-rows: 200px 200px;
+  gap: 50px;
+      grid-template-areas: "cetiri pet sest" "jedan dva tri";
+}
+
+@media only screen and (max-width: 1100px) {
+  .grid-container {
+        grid-template-areas: "cetiri . sest" "jedan pet tri";
+  }
+}
+
+.grid-item {
+  background: orangered;
+  height: 100%;
+  border: 2px solid black;
+  color: white;
+  font-size: 2rem;
+}
+
+.grid-item-1 {
+  background: green;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: jedan;
+  justify-self: end;
+  width: 70%;
+  margin-right: 40px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid-item-2 {
+  background: black;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: dva;
+}
+
+@media only screen and (max-width: 1100px) {
+  .grid-item-2 {
+    display: none;
+  }
+}
+
+.grid-item-3 {
+  background: yellow;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: tri;
+}
+
+.grid-item-4 {
+  background: blue;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: cetiri;
+}
+
+.grid-item-5 {
+  background: maroon;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: pet;
+}
+
+.grid-item-6 {
+  background: gray;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: sest;
+}
 /*# sourceMappingURL=main.css.map */
