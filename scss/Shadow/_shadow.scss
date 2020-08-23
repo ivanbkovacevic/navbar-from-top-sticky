@@ -1,4 +1,11 @@
-.shadow-wraper{
+// $shad:"";
+
+// @for $v from 1 to 6 {
+//     $shad:$shad + $v*23px +" "+ $v*23px +" "+ 0 +" "+ 0 +" "+ red;
+//      $shad:$shad + ",";
+   
+// }
+.shadow-wraper {
     background: paleturquoise;
     width: 100vw;
     height: 100vh;
@@ -6,25 +13,20 @@
     justify-content: center;
     align-items: center;
 
-    .shadow-item{
+    .shadow-item {
+     
         width: 100px;
         height: 100px;
         background: plum;
         border-radius: 50%;
-        // @for $v from 1 to 6 {
-        //     box-shadow: $v*23% $v*23% 0px 0px red,
-        //                 // #{$v*23px} #{$v*23px} 0px 0px red,
-        //                 // #{$v*23px} #{$v*23px} 0px 0px red,
-        //                 // #{$v*23px} #{$v*23px} 0px 0px red,
-        //                 // #{$v*23px} #{$v*23px} 0px 0px red,
-        //                 // #{$v*23px} #{$v*23px} 0px 0px red,
-        // }
-        box-shadow:
-        100px 100px 0px 0px red,
-         80px 243px 0px 0px green,
-          -36px 203px 0px 0px blue,  
-          -100px -100px 0px 0px red,
-          45px -243px 0px 0px green,
-           -86px -203px 0px 0px blue;  
+        // box-shadow:#{$shad};
+        box-shadow: 
+       
+            100px 100px 0px 0px red,
+            80px 243px 0px 0px green,
+            -36px 203px 0px 0px blue,
+            -100px -100px 0px 0px red,
+            45px -243px 0px 0px green,
+            -86px -203px 0px 0px blue;
     }
 }
