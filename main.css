@@ -1488,4 +1488,28 @@ footer .boot :nth-of-type(6) {
   -ms-grid-column: 3;
   grid-area: sest;
 }
+
+.shadow-wraper {
+  background: paleturquoise;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shadow-wraper .shadow-item {
+  width: 100px;
+  height: 100px;
+  background: plum;
+  border-radius: 50%;
+  -webkit-box-shadow: 100px 100px 0px 0px red, 80px 243px 0px 0px green, -36px 203px 0px 0px blue,   -100px -100px 0px 0px red, 45px -243px 0px 0px green, -86px -203px 0px 0px blue;
+          box-shadow: 100px 100px 0px 0px red, 80px 243px 0px 0px green, -36px 203px 0px 0px blue,   -100px -100px 0px 0px red, 45px -243px 0px 0px green, -86px -203px 0px 0px blue;
+}
 /*# sourceMappingURL=main.css.map */
