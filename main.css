@@ -1512,4 +1512,39 @@ footer .boot :nth-of-type(6) {
   -webkit-box-shadow: 100px 100px 0px 0px red, 80px 243px 0px 0px green, -36px 203px 0px 0px blue, -100px -100px 0px 0px red, 45px -243px 0px 0px green, -86px -203px 0px 0px blue;
           box-shadow: 100px 100px 0px 0px red, 80px 243px 0px 0px green, -36px 203px 0px 0px blue, -100px -100px 0px 0px red, 45px -243px 0px 0px green, -86px -203px 0px 0px blue;
 }
+
+.shape-out-wraper {
+  line-height: 0;
+  letter-spacing: 0;
+  word-spacing: 0;
+  height: 100vh;
+  background: orchid;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.shape-out-wraper .pp {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  background-color: honeydew;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.shape-out-wraper .shape {
+  float: right;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  shape-outside: circle(50%);
+  width: 100px;
+  height: 100px;
+}
+
+.shape-out-wraper:hover .shape {
+  float: left;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 /*# sourceMappingURL=main.css.map */
