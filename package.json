@@ -18,6 +18,6 @@
   "homepage": "https://github.com/ivanbkovacevic/navbar-from-top-sticky#readme",
   "dependencies": {
     "feather-icons": "^4.28.0",
-    "npm": "^6.14.7"
+    "npm": "^11.9.0"
   }
 }
